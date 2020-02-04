@@ -304,7 +304,7 @@ yarn
 yarn build
 ```
 
-Upon modification of a signle `package` you can run `yarn build-one --workspaces=@vx/package` from
+Upon modification of a single `package` you can run `yarn build-one --workspaces=@vx/package` from
 the `vx` monorepo root to re-build the package with your changes. You can use the local
 [`next.js`](https://nextjs.org) dev server within `packages/vx-demo` to view and iterate on your
 changes in the gallery. From the `packages/vx-demo` folder run `yarn dev` to start the next server
